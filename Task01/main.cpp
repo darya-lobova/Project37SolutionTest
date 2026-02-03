@@ -1,7 +1,8 @@
-#include <iostream>
+﻿#include <iostream>
 using namespace std;
 
+//главная функция программы
 int main() {
-	cout << "testing..." << endl;
+	cout << "тестинг..." << endl;
 	return 0;
 }
