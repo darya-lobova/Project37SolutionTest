@@ -7,10 +7,10 @@ int main() {
 
 	do {
 		cout << "**************************************" << endl;
-		cout << "Input coordinates of the first square: ";
+		cout << "Input coordinates of the first field: ";
 		cin >> x1 >> y1;
 
-		cout << "Input coordinates of the second square: ";
+		cout << "Input coordinates of the second field: ";
 		cin >> x2 >> y2;
 	} while (x1 < 1 || x1 > 8 || y1 < 1 || y1 > 8
 		|| x2 < 1 || x2 > 8 || y2 < 1 || y2 > 8);
